@@ -10,13 +10,13 @@
 // 1. CLOUD CONFIGURATION
 // --------------------------
 // Replace these three placeholders after following SETUP-GUIDE.txt.
-const CLOUDINARY_CLOUD_NAME = 'YOUR_CLOUD_NAME';
-const CLOUDINARY_UPLOAD_PRESET = 'YOUR_UNSIGNED_UPLOAD_PRESET';
+const CLOUDINARY_CLOUD_NAME = 'q7tdnqbb';
+const CLOUDINARY_UPLOAD_PRESET = 'friendship_unsigned';
 
 // Do not add a trailing slash.
 // Example: https://your-project-default-rtdb.firebaseio.com
 const FIREBASE_DATABASE_URL =
-  'https://YOUR_PROJECT_ID-default-rtdb.firebaseio.com';
+  'https://friendship-licence-default-rtdb.firebaseio.com';
 
 // Protected pages require a verified licence.
 const protectedPages = ['license', 'gallery', 'likings'];
