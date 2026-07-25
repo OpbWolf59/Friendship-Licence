@@ -11,7 +11,7 @@
 // --------------------------
 // Replace these three placeholders after following SETUP-GUIDE.txt.
 const CLOUDINARY_CLOUD_NAME = 'ixyynoop';
-const CLOUDINARY_UPLOAD_PRESET = 'friendship_unsigned';
+const CLOUDINARY_UPLOAD_PRESET = "friendship_gallery";';
 
 // Do not add a trailing slash.
 // Example: https://your-project-default-rtdb.firebaseio.com
