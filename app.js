@@ -22,26 +22,38 @@ const protectedPages = ['license', 'gallery', 'likings'];
 const licenseDatabase = {
   'FL-0210001': {
     license_number: 'FL-0210001',
-    friends_1: 'Bestie #1',
-    friends_2: 'Bestie #2',
-    issued_date: '01/15/2026',
-    expiry_date: '01/15/2027',
+    friends_1: 'Vibhushi',
+    friends_2: 'Abhinav',
+    issued_date: '07/25/2026',
+    expiry_date: 'Never',
     certification_code: 'BFF-CERT-2026-001',
     license_status: 'ACTIVE',
-    password: 'bestie123',
+    password: 'FL-0210001',
     image_folder: 'licenses/FL-0210001',
   },
 
   'FL-0210002': {
     license_number: 'FL-0210002',
-    friends_1: 'Friend A',
-    friends_2: 'Friend B',
-    issued_date: '02/20/2026',
-    expiry_date: '02/20/2027',
+    friends_1: 'Mahi',
+    friends_2: 'Abhinav',
+    issued_date: '07/25/2026',
+    expiry_date: 'Never',
     certification_code: 'BFF-CERT-2026-002',
     license_status: 'ACTIVE',
-    password: 'bestfriends',
+    password: 'FL-0210002',
     image_folder: 'licenses/FL-0210002',
+  },
+};
+'FL-0210003': {
+    license_number: 'FL-0210003',
+    friends_1: 'Urvi',
+    friends_2: 'Abhinav',
+    issued_date: '07/25/2026',
+    expiry_date: 'Never',
+    certification_code: 'BFF-CERT-2026-003',
+    license_status: 'ACTIVE',
+    password: 'FL-0210003',
+    image_folder: 'licenses/FL-0210003',
   },
 };
 
