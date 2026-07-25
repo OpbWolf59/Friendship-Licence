@@ -10,7 +10,7 @@
 // 1. CLOUD CONFIGURATION
 // --------------------------
 // Replace these three placeholders after following SETUP-GUIDE.txt.
-const CLOUDINARY_CLOUD_NAME = 'q7tdnqbb';
+const CLOUDINARY_CLOUD_NAME = 'ixyynoop';
 const CLOUDINARY_UPLOAD_PRESET = 'friendship_unsigned';
 
 // Do not add a trailing slash.
