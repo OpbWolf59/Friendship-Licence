@@ -54,9 +54,9 @@ const utils = {
 
   isConfigured() {
     return (
-      !CLOUDINARY_CLOUD_NAME.startsWith('YOUR_') &&
-      !CLOUDINARY_UPLOAD_PRESET.startsWith('YOUR_') &&
-      !FIREBASE_DATABASE_URL.includes('YOUR_PROJECT_ID')
+      !CLOUDINARY_CLOUD_NAME.startsWith('CLOUDINARY_CLOUD_NAME') &&
+      !CLOUDINARY_UPLOAD_PRESET.startsWith('CLOUDINARY_UPLOAD_PRESET') &&
+      !FIREBASE_DATABASE_URL.includes('friendship-licence')
     );
   },
 };
