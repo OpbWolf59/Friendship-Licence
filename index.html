@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friendship License Portal</title>
+  <meta name="description" content="Official Friendship Verification & Memory Vault - Create and share your friendship licenses">
+  <meta name="theme-color" content="#ff9dcb">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-container">
+      <a href="#" class="nav-logo"> ♥ Friendship License</a>
+      <ul class="nav-links">
+        <li><a href="#" data-page="home" class="active">Home</a></li>
+        <li><a href="#" data-page="verify">Verify</a></li>
+        <li><a href="#" data-page="license">License</a></li>
+        <li><a href="#" data-page="gallery">Gallery</a></li>
+        <li><a href="#" data-page="likings">Likings</a></li>
+        <li><a href="#" data-page="about">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Background Blobs -->
+  <div class="bg-blobs">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+  </div>
+
+  <!-- Floating Hearts -->
+  <div class="floating-hearts"></div>
+
+  <!-- Main Content -->
+  <main>
+    <!-- HOME PAGE -->
+    <div id="home" data-page class="container">
+      <div class="hero">
+        <div class="hero-emoji">💝</div>
+        <h1>Friendship License Portal</span></h1>
+        <p class="subtitle">Official Friendship Verification & Memory Vault</p>
+      </div>
+
+      <div class="grid grid-2">
+        <a href="#" data-page="verify" class="action-card">Verify a Licence
+          <div class="action-card-icon">🔍</div>
+          <h2>Verify a License</h2>
+          <p>Enter your card ID and password</p>
+        </a>
+        <a href="#" data-page="license" class="action-card">
+          <div class="action-card-icon">🎫</div>
+          <h2>View License</h2>
+          <p>Your friendship certificate</p>
+        </a>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="glass-card">
+          <div style="font-size: 2rem; font-weight: 700; background: #f80275;; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">2</div>
+          <div style="color: #000; font-size: 0.9rem;">Licenses</div>
+        </div>
+        <div class="glass-card">
+          <div style="font-size: 2rem; font-weight: 700; background: #f80275; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">∞</div>
+          <div style="color: #000; font-size: 0.9rem;">Memories</div>
+        </div>
+        <div class="glass-card">
+          <div style="font-size: 2rem; font-weight: 700; background: #f80275; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">100%</div>
+          <div style="color: #000; font-size: 0.9rem;">BFF Status</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- VERIFY PAGE -->
+    <div id="verify" data-page class="container hidden">
+      <h1>Verify License 🔍</h1>
+      <div class="glass-card" style="max-width: 500px; margin: 2rem auto;">
+        <form id="verify-form">
+          <div class="form-group">
+            <label for="card-id">License Card ID</label>
+            <input type="text" id="card-id" placeholder="e.g., FL-021XXXX" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter password" required>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Verify</button>
+        </form>
+        <div id="verify-result" class="hidden" style="margin-top: 2rem;"></div>
+        <p style="margin-top: 2rem; color: #000; font-size: 0.9rem; text-align: center;">
+          <strong>HINT:</strong> Password is same as your ID.
+        </p>
+      </div>
+    </div>
+
+    <!-- LICENSE PAGE -->
+    <div id="license" data-page class="container hidden">
+      <h1>View License 🎫</h1>
+      <p style="color: #000; font-size: 0.9rem; margin-bottom: 2rem;">Click the card to flip between front and back</p>
+      
+      <div class="card-flip-container">
+        <div class="card-flip-inner">
+          <div class="card-flip-front">
+            <img src="licenses/FL-0210001/front.png" alt="License Card Front" class="card-image">
+          </div>
+          <div class="card-flip-back">
+            <img src="licenses/FL-0210001/back.png" alt="License Card Back" class="card-image">
+          </div>
+        </div>
+      </div>
+
+      <div class="glass-card" style="margin: 2rem 0;">
+        <h2 style="margin-bottom: 1rem;">Friendship Affidavit</h2>
+        <p style="line-height: 1.8; color: #000;">
+          We hereby certify that the friendship between the aforementioned parties is genuine, 
+          authentic, and of the highest quality. Both parties have demonstrated unwavering loyalty, 
+          support, and care for one another. This friendship is officially recognized and registered 
+          with the International Bureau of Best Friends.
+        </p>
+        <p style="margin-top: 1rem; text-align: right; font-style: italic; color: #999;">
+          Sealed with 💗 on 25-07-2026
+        </p>
+      </div>
+
+      <div class="glass-card">
+        <h2 style="margin-bottom: 1rem;">Certificate of Friendship</h2>
+        <div style="text-align: center; padding: 2rem; border: 2px solid #ff9dcb; border-radius: 1rem;">
+          <div style="font-size: 2rem; margin-bottom: 1rem;">🏆</div>
+          <div style="font-size: 1.5rem; font-weight: 700; color: #ff9dcb; margin-bottom: 1rem;">
+            CERTIFIED BEST FRIENDS
+          </div>
+          <div style="color: #000; margin-bottom: 1rem;">
+            This certificate recognizes the exceptional bond and friendship
+          </div>
+          <div style="color: #ff00b7; font-size: 0.9rem;">
+            Certification Code: BFF-CERT-2025
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GALLERY PAGE -->
+    <div id="gallery" data-page class="container hidden">
+      <h1>Memory Gallery 🖼️</h1>
+      <p style="color: #020002; margin-bottom: 2rem;">Upload and manage your precious memories together</p>
+
+      <div class="file-input-wrapper">
+        <input type="file" id="gallery-file-input" accept="image/*">
+        <label for="gallery-file-input" class="file-input-label">+ Upload Memory</label>
+      </div>
+
+      <div id="gallery-grid" class="gallery-grid"></div>
+    </div>
+
+    <!-- LIKINGS PAGE -->
+    <div id="likings" data-page class="container hidden">
+      <h1>Our Likings ❤️</h1>
+      <p style="color: #020002; margin-bottom: 2rem;">Celebrate the things we love together</p>
+      <div id="likings-container" class="categories-container"></div>
+    </div>
+
+    <!-- ABOUT PAGE -->
+    <div id="about" data-page class="container hidden">
+      <h1>About Friendship Licenses 💭</h1>
+      
+      <div class="glass-card" style="margin: 2rem 0;">
+        <h2 style="margin-bottom: 1rem; color: #000000;">What is a Friendship License?</h2>
+        <p style="color: #020002; line-height: 1.8;">
+          A Friendship License is an official certification of your bond with your best friend. 
+          It serves as a beautiful digital record of your friendship, complete with memories, 
+          preferences, and a personalized license card. It's a fun and heartfelt way to celebrate 
+          the special connections that matter most.
+        </p>
+      </div>
+
+      <div class="glass-card" style="margin: 2rem 0;">
+        <h2 style="margin-bottom: 1rem; color: #000000;">Features</h2>
+        <ul style="list-style: none; color: #020002">
+          <li style="margin-bottom: 1rem;">✓ Official Friendship License Card with unique ID</li>
+          <li style="margin-bottom: 1rem;">✓ Digital Memory Gallery to store precious moments</li>
+          <li style="margin-bottom: 1rem;">✓ Shared Likings to celebrate common interests</li>
+          <li style="margin-bottom: 1rem;">✓ Affidavit and Certificate of Friendship</li>
+          <li style="margin-bottom: 1rem;">✓ Full customization and personalization</li>
+        </ul>
+      </div>
+
+      <div class="glass-card">
+        <h2 style="margin-bottom: 1rem; color: #000000;">Getting Started</h2>
+        <p style="color: #020002; margin-bottom: 1rem;">
+          1. Visit the "License" page to view the friendship certificate<br>
+          2. Upload memories in the "Gallery"<br>
+          3. Manage your shared likings and preferences<br>
+          4. Share and celebrate your friendship!
+        </p>
+        <p style="color: #020002; font-size: 0.9rem;">
+          Made with 💗 <BR>
+          for best friends everywhere.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="social-links">
+        <button class="social-btn" title="Share">📤</button>
+        <button class="social-btn" title="Favorite">❤️</button>
+      </div>
+      <p>&copy; 2026 Friendship License Portal.</p>
+      <p style="font-size: 0.85rem; margin-top: 0.5rem;">
+        <p style="color: #000000; text-decoration: none;">MADE BY<BR>
+        ABHINAV BHATNAGAR</p>
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
