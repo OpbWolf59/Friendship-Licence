@@ -11,12 +11,12 @@
 // --------------------------
 // Replace these three placeholders after following SETUP-GUIDE.txt.
 const CLOUDINARY_CLOUD_NAME = 'ixyynoop';
-const CLOUDINARY_UPLOAD_PRESET = "friendship_gallery";';
+const CLOUDINARY_UPLOAD_PRESET = 'friendship_gallery';
 
 // Do not add a trailing slash.
 // Example: https://your-project-default-rtdb.firebaseio.com
 const FIREBASE_DATABASE_URL =
-  'https://friendship-licence-default-rtdb.firebaseio.com';
+'https://friendship-licence-default-rtdb.firebaseio.com';
 
 // Protected pages require a verified licence.
 const protectedPages = ['license', 'gallery', 'likings'];
@@ -54,9 +54,9 @@ const utils = {
 
   isConfigured() {
     return (
-      !CLOUDINARY_CLOUD_NAME.startsWith('CLOUDINARY_CLOUD_NAME') &&
-      !CLOUDINARY_UPLOAD_PRESET.startsWith('CLOUDINARY_UPLOAD_PRESET') &&
-      !FIREBASE_DATABASE_URL.includes('friendship-licence')
+      !CLOUDINARY_CLOUD_NAME.startsWith('YOUR_') &&
+      !CLOUDINARY_UPLOAD_PRESET.startsWith('YOUR_') &&
+      !FIREBASE_DATABASE_URL.includes('YOUR_PROJECT_ID')
     );
   },
 };
